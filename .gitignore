@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files (large - don't push to GitHub)
+data/nbaiot_raw/
+data/processed/
+*.csv
+*.rar
+*.zip
