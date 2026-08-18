@@ -18,3 +18,11 @@ following the structure in `src/data_loader.py`.
 
 ## Status
 Work in progress.
+## Status
+- [x] Dataset acquired and preprocessed (9 N-BaIoT devices, per-device train/test splits, ~6.9M rows)
+- [x] Python 3.12 venv configured with CUDA-enabled PyTorch (GTX 1650, CUDA 12.1)
+- [ ] Centralized baseline model
+- [ ] Federated learning (FedAvg) simulation
+- [ ] Generative model for class rebalancing
+- [ ] Differential privacy integration
+- [ ] Final evaluation and writeup
